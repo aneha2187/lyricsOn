@@ -1,0 +1,79 @@
+.App {
+}
+
+body{
+  background-color: gainsboro;
+}
+
+.App-logo {
+  margin:5px;
+  float: left;
+  animation: App-logo-spin infinite 3s linear;
+  height: 55px;
+}
+
+.App-header {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  /*background-color: #961a1a;*/
+  height: 60px;
+  padding: 5px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.result_container {
+  background-color: gainsboro;
+}
+
+.Search-container {
+  background-color: #b8d5e8;
+  text-align: center;
+  padding: 40px 10px 40px 10px;
+}
+
+.Search-container .searchbox__input {
+  margin: 10px;
+  width: 25%;
+  min-height: 26px;
+  padding: 6px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Search-container .searchbox__button {
+  background-color: #4267b2;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.track_content {
+  text-align: center;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 10px
+}
+
+.track_content h2 {
+  font-size: 20px;
+  color: #949494;
+}
+
+.result_container {
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
